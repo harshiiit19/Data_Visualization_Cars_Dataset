@@ -4,97 +4,97 @@ This project explores a Large Cars Dataset using Python data visualization tools
 📁 Dataset
 The dataset, Large Cars Dataset.csv, includes various features like:
 
-Brand
+• Brand
 
-Model
+• Model
 
-Engine size
+• Engine size
 
-Horsepower
+• Horsepower
 
-Weight
+• Weight
 
-Acceleration
+• Acceleration
 
-Mileage
+• Mileage
 
-And other relevant specifications
+• And other relevant specifications
 
 🔧 Technologies Used
-Python
+• Python
 
-Pandas
+• Pandas
 
-NumPy
+• NumPy
 
-Matplotlib
+• Matplotlib
 
-Seaborn
+• Seaborn
 
-WordCloud
+• WordCloud
 
 📊 Process Overview
 1. Loading the Dataset
-The dataset is loaded using pandas with proper encoding and delimiter configuration.
+• The dataset is loaded using pandas with proper encoding and delimiter configuration.
 
-Basic structure, column names, head/tail, and info are printed.
+• Basic structure, column names, head/tail, and info are printed.
 
 2. Initial Exploration
-.describe().T.plot(kind='bar') is used for a summarized statistical overview.
+• .describe().T.plot(kind='bar') is used for a summarized statistical overview.
 
-Checks for:
+• Checks for:
 
-Missing values
+• Missing values
 
-Duplicates
+• Duplicates
 
-Column data types
+• Column data types
 
 3. Distribution Analysis
-Histograms with KDE (Kernel Density Estimation) are plotted for all numerical columns to visualize distribution trends.
+• Histograms with KDE (Kernel Density Estimation) are plotted for all numerical columns to visualize distribution trends.
 
 4. Correlation Matrix
-A heatmap is generated using Seaborn to visualize correlation between all numerical features.
+• A heatmap is generated using Seaborn to visualize correlation between all numerical features.
 
-Helps identify strong linear relationships between variables.
+• Helps identify strong linear relationships between variables.
 
 5. Categorical Features
-Count plots are generated for all categorical columns (object type) to visualize the frequency of different classes (e.g., Brands).
+• Count plots are generated for all categorical columns (object type) to visualize the frequency of different classes (e.g., Brands).
 
 6. Word Cloud Generation
-A WordCloud is created based on the Brand column to visualize brand frequency in an engaging way.
+• A WordCloud is created based on the Brand column to visualize brand frequency in an engaging way.
 
-Uses STOPWORDS to remove irrelevant words and focuses on meaningful terms.
+• Uses STOPWORDS to remove irrelevant words and focuses on meaningful terms.
 
 📌 Key Insights
-Distribution and skewness of numerical features are clearly observed.
+• Distribution and skewness of numerical features are clearly observed.
 
-Heatmaps reveal potential multicollinearity.
+• Heatmaps reveal potential multicollinearity.
 
-Brand dominance is visually highlighted using WordCloud.
+• Brand dominance is visually highlighted using WordCloud.
 
-Useful for further feature engineering, clustering, or predictive modeling.
+• Useful for further feature engineering, clustering, or predictive modeling.
 
 ▶️ How to Run
-Clone this repository.
+1. Clone this repository.
 
-Place the Large Cars Dataset.csv in the root directory.
+2. Place the Large Cars Dataset.csv in the root directory.
 
-Run code.ipynb using Jupyter Notebook or VS Code with Jupyter extension.
+3. Run code.ipynb using Jupyter Notebook or VS Code with Jupyter extension.
 
 📎 Output Samples
-📈 Distribution plots
+• 📈 Distribution plots
 
-📊 Correlation heatmap
+• 📊 Correlation heatmap
 
-📦 Countplots for categorical variables
+• 📦 Countplots for categorical variables
 
-☁️ WordCloud for car brands
+• ☁️ WordCloud for car brands
 
 🧪 Future Scope
-Add outlier detection using boxplots.
+• Add outlier detection using boxplots.
 
-Feature engineering for predictive modeling.
+• Feature engineering for predictive modeling.
 
-Clustering car types using k-means or hierarchical clustering.
+• Clustering car types using k-means or hierarchical clustering.
 
